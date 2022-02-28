@@ -4,7 +4,7 @@
 
 This projects demonstrates some GitOps pipeline based on AWS development tools such [AWS CodeCommit](https://aws.amazon.com/fr/codecommit/), [AWS CodePipeline](https://aws.amazon.com/fr/codepipeline/) and [AWS CodeBuild](https://aws.amazon.com/fr/codebuild/). The project is deployed in 2 phases. The first phase deploys the pipeline that is used to deploy the AWS infrastructure (e.g., VPC, subnets, ECS) as well as another pipeline dedicated to the build and deployment of the docker container to be deployed on ECS. The Architecture is as follows:
 
-![Architecture](image/gitops.png)
+![Architecture](https://github.com/erbianchi/flask-cdk-gitops/blob/main/images/gitops.png)
 
 
 ## Requirements
