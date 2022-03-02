@@ -9,9 +9,13 @@ This projects demonstrates some GitOps pipeline based on AWS development tools s
 
 ## Requirements
 
-You should have a version of `cdk` and `typescript`.
+You should have a version of ![cdk](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html) and `typescript`.
 
-To initialize the project run `cdk deploy FlaskAppCdkStack --no-rollback --require-approval never`
+To initialize the project run 
+```
+$ npm install
+$ cdk deploy FlaskAppCdkStack --no-rollback --require-approval never
+```
 
 import the project in the git commit repo that was just created using:
 
