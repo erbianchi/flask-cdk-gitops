@@ -14,6 +14,7 @@ You should have a version of ![cdk](https://docs.aws.amazon.com/cdk/v2/guide/get
 To initialize the project run 
 ```
 $ npm install
+$ cdk bootstrap
 $ cdk deploy FlaskAppCdkStack --no-rollback --require-approval never
 ```
 
