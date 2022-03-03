@@ -9,7 +9,7 @@ This projects demonstrates some GitOps pipeline based on AWS development tools s
 
 ## Requirements
 
-You should have a version of ![cdk](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html) and `typescript`.
+You should have a version of [cdk](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html) and `typescript`.
 
 To initialize the project run 
 ```
